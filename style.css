@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    width: 100%;
+    height: 680px;
+    background-image: url("/back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lixi {
+    width: 22%;
+    margin: 10px 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.lixi img {
+    width: 100%;
+}
+
+#box {
+    display: none;
+    position: absolute;
+    top: 80PX;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 490px;
+    border-radius: 5px;
+}
+
+#box img {
+    width: 90%;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-weight: 1000;
+}
+
+p {
+    padding: 0 20px;
+    padding-top: 80px;
+    font-size: 30px;
+    color: azure;
+    font-weight: 800;
+}

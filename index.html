@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lì xì 2023</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div id="background">
+        <p>MỜI BẠN CHỌN 1 LÌ XÌ</p>
+        <div class="flex">
+            <div class="lixi">
+                <img src="./lixi.jpg" alt="">
+            </div>
+            <div class="lixi">
+                <img src="./lixi.jpg" alt="">
+            </div>
+            <div class="lixi">
+                <img src="./lixi.jpg" alt="">
+            </div>
+            <div class="lixi">
+                <img src="./lixi.jpg" alt="">
+            </div>
+            <div class="lixi">
+                <img src="/lixi.jpg" alt="">
+            </div>
+            <div class="lixi">
+                <img src="./lixi.jpg" alt="">
+            </div>
+            <div id="box">
+                <br>
+                <br>
+                <br>
+                <h1>
+                    CHÚC MỪNG BẠN NHẬN ĐƯỢC
+                </h1>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <img src="./3.jpg" alt="" id="qua">
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        const lixi = document.getElementsByClassName("lixi");
+        const box = document.getElementById("box");
+        const qua = document.getElementById("qua");
+
+        for (let i = 0; i < lixi.length; i++) {
+            lixi[i].onclick = () => {
+                box.style.display = "block";
+                qua.src = `./${i}.jpg`
+            }
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
